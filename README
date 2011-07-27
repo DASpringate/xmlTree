@@ -1,0 +1,10 @@
+Python2 Tools for building and visualising trees of xml file structures
+D A Springate 2011
+
+requires:
+Python2
+networkx (http://networkx.lanl.gov/index.html), 
+matplotlib (http://matplotlib.sourceforge.net/).
+
+usage: xmlTree.py xmlFile tree-depth(0 for no pruning) [graphic file to save to] [nolabels]
+e.g. xmlTree.py article.xml 3 testy.png nolabels. 
